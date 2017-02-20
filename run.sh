@@ -8,6 +8,8 @@ DIR="Maps/"
 rm -dR Result;
 mkdir Result;
 nm -u ./lem-in;
+# norminette -RCheckForbiddenSourceHeader;
+# cat -e author
 C="cat";
 FILE="1.map";
 FILE2="2.map";
@@ -67,7 +69,7 @@ $C $DIR$FILE8 | $P > $USER$FILE8 | leaks lem-in;
 echo "\033[37mOutput: cat $USER$FILE8\n"
 
 echo "\n\n\033[32m$FILE6\n\033[37m"
-$C $DIR$FILE7 | $P > $USER$FILE6 | leaks lem-in;
+$C $DIR$FILE6 | $P > $USER$FILE6 | leaks lem-in;
 
 echo "\n\n\033[32m$FILE9\n\033[37m"
 $C $DIR$FILE9 | $P > $USER$FILE9 | leaks lem-in;
