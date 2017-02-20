@@ -1,0 +1,39 @@
+50
+##start
+#comment
+##star
+##starts
+###credntsend
+##srtnir
+start 1 3
+room1 5 6
+room2 8 9
+room3 7 8
+room4 7 6
+room5 2 2
+room6 8 3
+#coiesrnt
+###irsentr
+##ent
+###isetnir
+room7 0 8
+room8 4 3
+##end
+##en
+##ends
+##iersntiers
+end 3 5
+room9 8 2
+#iersntie
+start-room1
+room1-room2
+room2-room3
+room3-room4
+#ienstrarstien
+#iersntirs
+room4-room5
+room5-room6
+room6-room7
+room7-room8
+room8-room9
+room9-end
