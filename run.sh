@@ -7,6 +7,7 @@ P="./lem-in";
 DIR="Maps/"
 rm -dR Result;
 mkdir Result;
+nm -u ./lem-in;
 C="cat";
 FILE="1.map";
 FILE2="2.map";
@@ -42,7 +43,7 @@ $C $DIR$FILE | $P > $USER$FILE | leaks lem-in;
 echo "\033[37mOutput: cat $USER$FILE\n"
 
 echo "\n\n\033[32m$FILE2\n\033[37m"
-$C $FILE2 | $P > $USER$FILE2 | leaks lem-in;
+$C $DIR$FILE2 | $P > $USER$FILE2 | leaks lem-in;
 echo "\033[37mOutput: cat $USER$FILE2\n"
 
 echo "\n\n\033[32m$FILE3\n\033[37m"
