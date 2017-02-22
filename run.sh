@@ -49,7 +49,7 @@ FILE28="err_no_start.map";
 FILE29="err_no_ants3.map";
 FILE30="err_no_rooms.map";
 FILE31="err_letter_in_coordinate.map";
-FILE32="err_no_end2.map";
+FILE32="err_no_end.map";
 
 echo "\n\n\033[32m$FILE\n\033[37m"
 $C $DIR$FILE | $P > $USER$FILE | leaks lem-in;
