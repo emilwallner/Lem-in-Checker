@@ -49,6 +49,7 @@ FILE28="err_no_start.map";
 FILE29="err_no_ants3.map";
 FILE30="err_no_rooms.map";
 FILE31="err_letter_in_coordinate.map";
+FILE32="err_no_end2.map";
 
 echo "\n\n\033[32m$FILE\n\033[37m"
 $C $DIR$FILE | $P > $USER$FILE | leaks lem-in;
@@ -158,6 +159,9 @@ $C $DIR$FILE30 | $P > $USER$FILE30 | leaks lem-in;
 
 echo "\n\n\033[32m$FILE31\n\033[37m"
 $C $DIR$FILE31 | $P > $USER$FILE31 | leaks lem-in;
+
+echo "\n\n\033[32m$FILE32\n\033[37m"
+$C $DIR$FILE32 | $P > $USER$FILE32 | leaks lem-in;
 
 echo "\n\n\033[32m/dev/urandom/\033[37m"
 $C /dev/urandom | $P > $USER-dev-urandom | leaks lem-in;
