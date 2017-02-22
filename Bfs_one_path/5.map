@@ -1,0 +1,119 @@
+100
+##start
+start 1 3
+room1 5 6
+room2 8 9
+room3 7 8
+room4 7 6
+##end
+end 3 5
+start-room1
+room1-room2
+room2-room3
+room3-room4
+room4-end
+
+L1-room1 
+L1-room2 L2-room1 
+L1-room3 L2-room2 L3-room1 
+L1-room4 L2-room3 L3-room2 L4-room1 
+L1-end L2-room4 L3-room3 L4-room2 L5-room1 
+L2-end L3-room4 L4-room3 L5-room2 L6-room1 
+L3-end L4-room4 L5-room3 L6-room2 L7-room1 
+L4-end L5-room4 L6-room3 L7-room2 L8-room1 
+L5-end L6-room4 L7-room3 L8-room2 L9-room1 
+L6-end L7-room4 L8-room3 L9-room2 L10-room1 
+L7-end L8-room4 L9-room3 L10-room2 L11-room1 
+L8-end L9-room4 L10-room3 L11-room2 L12-room1 
+L9-end L10-room4 L11-room3 L12-room2 L13-room1 
+L10-end L11-room4 L12-room3 L13-room2 L14-room1 
+L11-end L12-room4 L13-room3 L14-room2 L15-room1 
+L12-end L13-room4 L14-room3 L15-room2 L16-room1 
+L13-end L14-room4 L15-room3 L16-room2 L17-room1 
+L14-end L15-room4 L16-room3 L17-room2 L18-room1 
+L15-end L16-room4 L17-room3 L18-room2 L19-room1 
+L16-end L17-room4 L18-room3 L19-room2 L20-room1 
+L17-end L18-room4 L19-room3 L20-room2 L21-room1 
+L18-end L19-room4 L20-room3 L21-room2 L22-room1 
+L19-end L20-room4 L21-room3 L22-room2 L23-room1 
+L20-end L21-room4 L22-room3 L23-room2 L24-room1 
+L21-end L22-room4 L23-room3 L24-room2 L25-room1 
+L22-end L23-room4 L24-room3 L25-room2 L26-room1 
+L23-end L24-room4 L25-room3 L26-room2 L27-room1 
+L24-end L25-room4 L26-room3 L27-room2 L28-room1 
+L25-end L26-room4 L27-room3 L28-room2 L29-room1 
+L26-end L27-room4 L28-room3 L29-room2 L30-room1 
+L27-end L28-room4 L29-room3 L30-room2 L31-room1 
+L28-end L29-room4 L30-room3 L31-room2 L32-room1 
+L29-end L30-room4 L31-room3 L32-room2 L33-room1 
+L30-end L31-room4 L32-room3 L33-room2 L34-room1 
+L31-end L32-room4 L33-room3 L34-room2 L35-room1 
+L32-end L33-room4 L34-room3 L35-room2 L36-room1 
+L33-end L34-room4 L35-room3 L36-room2 L37-room1 
+L34-end L35-room4 L36-room3 L37-room2 L38-room1 
+L35-end L36-room4 L37-room3 L38-room2 L39-room1 
+L36-end L37-room4 L38-room3 L39-room2 L40-room1 
+L37-end L38-room4 L39-room3 L40-room2 L41-room1 
+L38-end L39-room4 L40-room3 L41-room2 L42-room1 
+L39-end L40-room4 L41-room3 L42-room2 L43-room1 
+L40-end L41-room4 L42-room3 L43-room2 L44-room1 
+L41-end L42-room4 L43-room3 L44-room2 L45-room1 
+L42-end L43-room4 L44-room3 L45-room2 L46-room1 
+L43-end L44-room4 L45-room3 L46-room2 L47-room1 
+L44-end L45-room4 L46-room3 L47-room2 L48-room1 
+L45-end L46-room4 L47-room3 L48-room2 L49-room1 
+L46-end L47-room4 L48-room3 L49-room2 L50-room1 
+L47-end L48-room4 L49-room3 L50-room2 L51-room1 
+L48-end L49-room4 L50-room3 L51-room2 L52-room1 
+L49-end L50-room4 L51-room3 L52-room2 L53-room1 
+L50-end L51-room4 L52-room3 L53-room2 L54-room1 
+L51-end L52-room4 L53-room3 L54-room2 L55-room1 
+L52-end L53-room4 L54-room3 L55-room2 L56-room1 
+L53-end L54-room4 L55-room3 L56-room2 L57-room1 
+L54-end L55-room4 L56-room3 L57-room2 L58-room1 
+L55-end L56-room4 L57-room3 L58-room2 L59-room1 
+L56-end L57-room4 L58-room3 L59-room2 L60-room1 
+L57-end L58-room4 L59-room3 L60-room2 L61-room1 
+L58-end L59-room4 L60-room3 L61-room2 L62-room1 
+L59-end L60-room4 L61-room3 L62-room2 L63-room1 
+L60-end L61-room4 L62-room3 L63-room2 L64-room1 
+L61-end L62-room4 L63-room3 L64-room2 L65-room1 
+L62-end L63-room4 L64-room3 L65-room2 L66-room1 
+L63-end L64-room4 L65-room3 L66-room2 L67-room1 
+L64-end L65-room4 L66-room3 L67-room2 L68-room1 
+L65-end L66-room4 L67-room3 L68-room2 L69-room1 
+L66-end L67-room4 L68-room3 L69-room2 L70-room1 
+L67-end L68-room4 L69-room3 L70-room2 L71-room1 
+L68-end L69-room4 L70-room3 L71-room2 L72-room1 
+L69-end L70-room4 L71-room3 L72-room2 L73-room1 
+L70-end L71-room4 L72-room3 L73-room2 L74-room1 
+L71-end L72-room4 L73-room3 L74-room2 L75-room1 
+L72-end L73-room4 L74-room3 L75-room2 L76-room1 
+L73-end L74-room4 L75-room3 L76-room2 L77-room1 
+L74-end L75-room4 L76-room3 L77-room2 L78-room1 
+L75-end L76-room4 L77-room3 L78-room2 L79-room1 
+L76-end L77-room4 L78-room3 L79-room2 L80-room1 
+L77-end L78-room4 L79-room3 L80-room2 L81-room1 
+L78-end L79-room4 L80-room3 L81-room2 L82-room1 
+L79-end L80-room4 L81-room3 L82-room2 L83-room1 
+L80-end L81-room4 L82-room3 L83-room2 L84-room1 
+L81-end L82-room4 L83-room3 L84-room2 L85-room1 
+L82-end L83-room4 L84-room3 L85-room2 L86-room1 
+L83-end L84-room4 L85-room3 L86-room2 L87-room1 
+L84-end L85-room4 L86-room3 L87-room2 L88-room1 
+L85-end L86-room4 L87-room3 L88-room2 L89-room1 
+L86-end L87-room4 L88-room3 L89-room2 L90-room1 
+L87-end L88-room4 L89-room3 L90-room2 L91-room1 
+L88-end L89-room4 L90-room3 L91-room2 L92-room1 
+L89-end L90-room4 L91-room3 L92-room2 L93-room1 
+L90-end L91-room4 L92-room3 L93-room2 L94-room1 
+L91-end L92-room4 L93-room3 L94-room2 L95-room1 
+L92-end L93-room4 L94-room3 L95-room2 L96-room1 
+L93-end L94-room4 L95-room3 L96-room2 L97-room1 
+L94-end L95-room4 L96-room3 L97-room2 L98-room1 
+L95-end L96-room4 L97-room3 L98-room2 L99-room1 
+L96-end L97-room4 L98-room3 L99-room2 L100-room1 
+L97-end L98-room4 L99-room3 L100-room2 
+L98-end L99-room4 L100-room3 
+L99-end L100-room4 
+L100-end 
