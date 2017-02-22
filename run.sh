@@ -3,14 +3,19 @@ RED="\033[31m";
 DEFAULT="\033[37m";
 CYAN="\x1b[36m";
 USER="Result/";
+USER2="Bfs_one_path/"
+DIFF="Diff/"
 P="./lem-in";
 DIR="Maps/"
 rm -dR Result;
 mkdir Result;
+# rm -dR Diff;
+# mkdir Diff;
 nm -u ./lem-in;
 # norminette -RCheckForbiddenSourceHeader;
 # cat -e author
 C="cat";
+C2="diff";
 FILE="1.map";
 FILE1="9_path_depth_4_ants.map";
 FILE2="2.map";
@@ -175,3 +180,7 @@ $C /dev/zero | $P > $USER-dev-zero | leaks lem-in;
 
 echo "\n\n\033[32mNothing\033[37m"
 echo "" | $P > $USER-Nothing | leaks lem-in;
+
+echo "\n\n\033[32mOutput Difference:\033[37m"
+diff -r $DIR$USER2 $USER > output_difference.txt
+echo "\x1b[36mOutput: cat output_difference.txt\n"
