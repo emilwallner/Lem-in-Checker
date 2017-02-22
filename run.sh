@@ -24,7 +24,6 @@ FILE4="10K.map";
 FILE5="100K.map";
 FILE7="10_lots_of_comments.map";
 FILE8="20.map";
-FILE6="err_no_end.map";
 FILE9="err_3_coordinates.map";
 FILE10="err_duplicate.map";
 FILE11="err_no_ants2.map";
@@ -75,10 +74,6 @@ echo "\n\n\033[32m$FILE23\n\033[37m"
 $C $DIR$FILE23 | $P > $USER$FILE23 | leaks lem-in;
 echo "\x1b[36mOutput: cat $USER$FILE23\n"
 
-echo "\n\n\033[32m$FILE24\n\033[37m"
-$C $DIR$FILE24 | $P > $USER$FILE24 | leaks lem-in;
-echo "\x1b[36mOutput: cat $USER$FILE24\n"
-
 echo "\n\n\033[32m$FILE2\n\033[37m"
 $C $DIR$FILE2 | $P > $USER$FILE2 | leaks lem-in;
 echo "\x1b[36mOutput: cat $USER$FILE2\n"
@@ -104,8 +99,8 @@ echo "\n\n\033[32m$FILE8\n\033[37m"
 $C $DIR$FILE8 | $P > $USER$FILE8 | leaks lem-in;
 echo "\x1b[36mOutput: cat $USER$FILE8\n"
 
-echo "\n\n\033[32m$FILE6\n\033[37m"
-$C $DIR$FILE6 | $P > $USER$FILE6 | leaks lem-in;
+echo "\n\n\033[32m$FILE24\n\033[37m"
+$C $DIR$FILE24 | $P > $USER$FILE24 | leaks lem-in;
 
 echo "\n\n\033[32m$FILE9\n\033[37m"
 $C $DIR$FILE9 | $P > $USER$FILE9 | leaks lem-in;
