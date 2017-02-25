@@ -2,7 +2,7 @@
 * Add the sleep function before your return or exit statement. Part of the unistd.h library.
   * sleep(3);
 * Clone the folder in your Lem_in folder
-  * git clone https://github.com/emilwallner/Maps Maps && sh ./Maps/run.sh
+  * git clone https://github.com/emilwallner/Lem-in-Checker.git Maps && sh ./Maps/run.sh
 * The output of each ant farm is saved in a new folder, Result.
   * cat ./Result/nameoffile
 * It compares all your output to my output and returns the difference in output_difference.txt
