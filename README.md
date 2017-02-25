@@ -9,4 +9,5 @@
  * cat output_difference.txt
  * If it it empty, you have the same result as me. 
 * If you want to test 10K rooms and 100K rooms, uncomment them in the run.sh file. 
-* If you have more maps, results from other algorithms, or a better shell script. Ping me and I'll add you as a collaborator. 
+* If you have more maps, results from other algorithms, or a better shell script. Ping me and I'll add you as a collaborator.
+* Many of the maps were made by @cmehay's lem-in map generator: https://github.com/cmehay/lem-in_generator
